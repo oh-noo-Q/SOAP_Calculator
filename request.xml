@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://www.baeldung.com/springsoap/gen">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:calculatorRequest>
+            <gs:number1>10</gs:number1>
+            <gs:number2>10</gs:number2>
+            <gs:operator>+</gs:operator>
+        </gs:calculatorRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
